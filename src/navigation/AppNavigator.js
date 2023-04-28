@@ -35,9 +35,9 @@ import MoneyHome from "../screens/My Money/MoneyHome";
 import HealthData from "../screens/My Healthcare/HealthData";
 import HealthDataHome from "../screens/My Healthcare/HealthDataHome";
 import ViewHealthData from "../screens/My Healthcare/ViewHealthData";
-import AddHealthPhoto from "../screens/My Healthcare/AddHealthPhoto";
-import ShowHealthPhoto from "../screens/My Healthcare/ShowHealthPhoto";
-import EditHealthPhoto from "../screens/My Healthcare/EditHealthPhoto";
+import AddCertificatePhoto from "../screens/My Healthcare/AddCertificatePhoto";
+import ViewCertificatePhoto from "../screens/My Healthcare/ViewCertificatePhoto";
+import EditCertificatePhoto from "../screens/My Healthcare/EditCertificatePhoto";
 import DetailHealthScreen from "../screens/My Healthcare/DetailHealthScreen";
 // import MapScreen from "../screens/My Healthcare/MapScreen";
 // import MarkerMapScreen from "../screens/My Healthcare/MarkerMapScreen";
@@ -109,13 +109,23 @@ const Main = () => {
       <MainStack.Screen name="HealthDataHome" component={HealthDataHome} />
       <MainStack.Screen name="HealthData" component={HealthData} />
       <MainStack.Screen name="ViewHealthData" component={ViewHealthData} />
-      <MainStack.Screen name="AddHealthPhoto" component={AddHealthPhoto} />
-      <MainStack.Screen name="EditHealthPhoto" component={EditHealthPhoto} />
       <MainStack.Screen
         name="DetailHealthScreen"
         component={DetailHealthScreen}
       />
-      <MainStack.Screen name="ShowHealthPhoto" component={ShowHealthPhoto} />
+      <MainStack.Screen
+        name="ViewCertificatePhoto"
+        component={ViewCertificatePhoto}
+      />
+      <MainStack.Screen
+        name="AddCertificatePhoto"
+        component={AddCertificatePhoto}
+      />
+      <MainStack.Screen
+        name="EditCertificatePhoto"
+        component={EditCertificatePhoto}
+      />
+
       {/* <MainStack.Screen name="MapScreen" component={MapScreen} />
       <MainStack.Screen name="MarkerMapScreen" component={MarkerMapScreen} />
       <MainStack.Screen name="MyLocationScreen" component={MyLocationScreen} />

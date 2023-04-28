@@ -15,7 +15,7 @@ export default function ({ navigation }) {
   return (
     <Layout>
       <TopNav
-        middleContent="Created a new branch Health Module Screen"
+        middleContent="Health Module Screen"
         leftContent={
           <Ionicons
             name="chevron-back"
