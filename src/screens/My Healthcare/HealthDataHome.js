@@ -15,7 +15,7 @@ export default function ({ navigation }) {
   return (
     <Layout>
       <TopNav
-        middleContent="Testing commit Health Module Screen"
+        middleContent="Test Health Module Screen"
         leftContent={
           <Ionicons
             name="chevron-back"
